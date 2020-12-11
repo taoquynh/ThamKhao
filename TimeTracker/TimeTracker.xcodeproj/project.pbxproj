@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D696A6123FF771900BAA7AB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696A6023FF771900BAA7AB /* MainViewController.swift */; };
+		6D696A6323FF8E1500BAA7AB /* QuarterCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696A6223FF8E1500BAA7AB /* QuarterCircleView.swift */; };
+		6D696A6523FF961300BAA7AB /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696A6423FF961300BAA7AB /* CircleImageView.swift */; };
+		6D696A6723FFB96500BAA7AB /* ReviewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696A6623FFB96500BAA7AB /* ReviewCollectionViewCell.swift */; };
+		6D696A6923FFBAAB00BAA7AB /* PercentageCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696A6823FFBAAB00BAA7AB /* PercentageCircleView.swift */; };
+		6D696A7B23FFFB4600BAA7AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696A7923FFFB4600BAA7AB /* ViewController.swift */; };
+		6D696A7C23FFFB4600BAA7AB /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696A7A23FFFB4600BAA7AB /* ScreenView.swift */; };
+		6D696A8023FFFB7300BAA7AB /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696A7F23FFFB7300BAA7AB /* CustomTextField.swift */; };
+		6D696A8E23FFFC4200BAA7AB /* Pie Chart.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D696A8123FFFC4200BAA7AB /* Pie Chart.png */; };
+		6D696A8F23FFFC4200BAA7AB /* Chart setting Week.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D696A8223FFFC4200BAA7AB /* Chart setting Week.png */; };
+		6D696A9023FFFC4200BAA7AB /* Home Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D696A8323FFFC4200BAA7AB /* Home Screen.png */; };
+		6D696A9123FFFC4200BAA7AB /* Add New Work.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D696A8423FFFC4200BAA7AB /* Add New Work.png */; };
+		6D696A9223FFFC4200BAA7AB /* Change Password.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D696A8523FFFC4200BAA7AB /* Change Password.png */; };
+		6D696A9323FFFC4200BAA7AB /* Chart Month.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D696A8623FFFC4200BAA7AB /* Chart Month.png */; };
+		6D696A9423FFFC4200BAA7AB /* Forget Password.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D696A8723FFFC4200BAA7AB /* Forget Password.png */; };
+		6D696A9523FFFC4200BAA7AB /* Setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D696A8823FFFC4200BAA7AB /* Setting.png */; };
+		6D696A9623FFFC4200BAA7AB /* Changed Information.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D696A8923FFFC4200BAA7AB /* Changed Information.png */; };
+		6D696A9723FFFC4200BAA7AB /* Add working.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D696A8A23FFFC4200BAA7AB /* Add working.png */; };
+		6D696A9823FFFC4200BAA7AB /* Chart Week.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D696A8B23FFFC4200BAA7AB /* Chart Week.png */; };
+		6D696A9923FFFC4200BAA7AB /* Chart setting Month.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D696A8C23FFFC4200BAA7AB /* Chart setting Month.png */; };
+		6D696A9A23FFFC4200BAA7AB /* Log In.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D696A8D23FFFC4200BAA7AB /* Log In.png */; };
+		6D696A9C24000BBA00BAA7AB /* JobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696A9B24000BBA00BAA7AB /* JobTableViewCell.swift */; };
+		6D696A9E24000E7400BAA7AB /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696A9D24000E7400BAA7AB /* CircleView.swift */; };
+		6D696AA0240018CE00BAA7AB /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696A9F240018CE00BAA7AB /* CircleButton.swift */; };
+		6D696AA224001C1300BAA7AB /* StateSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696AA124001C1300BAA7AB /* StateSegmentedControl.swift */; };
+		6D696AA42400D11500BAA7AB /* AppTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696AA32400D11500BAA7AB /* AppTabBarViewController.swift */; };
+		6D696AA82400E51100BAA7AB /* ChartWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696AA72400E51100BAA7AB /* ChartWeekViewController.swift */; };
+		6D696AAC2400EB3200BAA7AB /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696AAB2400EB3200BAA7AB /* PieChartViewController.swift */; };
+		6D696AAF2400EB5400BAA7AB /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696AAE2400EB5400BAA7AB /* SettingViewController.swift */; };
+		6D696AB12402468900BAA7AB /* WeekChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696AB02402468900BAA7AB /* WeekChartView.swift */; };
+		6D696AB32402791F00BAA7AB /* WeekChartCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696AB22402791F00BAA7AB /* WeekChartCollectionViewCell.swift */; };
+		6D696AB52402874100BAA7AB /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696AB42402874100BAA7AB /* NoteTableViewCell.swift */; };
+		6D696ABB2402B40500BAA7AB /* JobPercentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696ABA2402B40500BAA7AB /* JobPercentage.swift */; };
+		6D696ABD2402BA6C00BAA7AB /* JobTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696ABC2402BA6C00BAA7AB /* JobTypeTableViewCell.swift */; };
+		6D696ABF24036E2D00BAA7AB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696ABE24036E2D00BAA7AB /* User.swift */; };
+		6D696AC124036FD800BAA7AB /* InfoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696AC024036FD800BAA7AB /* InfoCollectionViewCell.swift */; };
+		6D696AC424037D0B00BAA7AB /* NewJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696AC324037D0B00BAA7AB /* NewJobViewController.swift */; };
+		6D696AC62403ABC500BAA7AB /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696AC52403ABC500BAA7AB /* EmptyViewController.swift */; };
+		6D696AC82404C19800BAA7AB /* JobInputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696AC72404C19800BAA7AB /* JobInputTextField.swift */; };
+		6D696ACB2405004800BAA7AB /* JobPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696ACA2405004800BAA7AB /* JobPickerViewController.swift */; };
+		6D696ACD240501D700BAA7AB /* JobPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696ACC240501D700BAA7AB /* JobPickerTableViewCell.swift */; };
+		6D696ACF240521C300BAA7AB /* JobPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696ACE240521C300BAA7AB /* JobPicker.swift */; };
+		6D696AD22405523300BAA7AB /* CreateJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D696AD12405523300BAA7AB /* CreateJobViewController.swift */; };
+		6D8EA38D23FA76470064FB99 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8EA38C23FA76470064FB99 /* Utilities.swift */; };
+		6DADFA2B23F3E0790010D080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DADFA2A23F3E0790010D080 /* AppDelegate.swift */; };
+		6DADFA2D23F3E0790010D080 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DADFA2C23F3E0790010D080 /* SceneDelegate.swift */; };
+		6DADFA3223F3E0790010D080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DADFA3023F3E0790010D080 /* Main.storyboard */; };
+		6DADFA3423F3E07B0010D080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DADFA3323F3E07B0010D080 /* Assets.xcassets */; };
+		6DADFA3723F3E07B0010D080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DADFA3523F3E07B0010D080 /* LaunchScreen.storyboard */; };
+		9DDBA904E75A28131FFB43BE /* Pods_TimeTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7A01D6851F8BEC32DB8B7A /* Pods_TimeTracker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B7A01D6851F8BEC32DB8B7A /* Pods_TimeTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		449C18CD7B18E3F024D770F5 /* Pods-TimeTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeTracker.release.xcconfig"; path = "Target Support Files/Pods-TimeTracker/Pods-TimeTracker.release.xcconfig"; sourceTree = "<group>"; };
+		6D696A6023FF771900BAA7AB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6D696A6223FF8E1500BAA7AB /* QuarterCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarterCircleView.swift; sourceTree = "<group>"; };
+		6D696A6423FF961300BAA7AB /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		6D696A6623FFB96500BAA7AB /* ReviewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCollectionViewCell.swift; sourceTree = "<group>"; };
+		6D696A6823FFBAAB00BAA7AB /* PercentageCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageCircleView.swift; sourceTree = "<group>"; };
+		6D696A7923FFFB4600BAA7AB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D696A7A23FFFB4600BAA7AB /* ScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
+		6D696A7F23FFFB7300BAA7AB /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		6D696A8123FFFC4200BAA7AB /* Pie Chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pie Chart.png"; sourceTree = "<group>"; };
+		6D696A8223FFFC4200BAA7AB /* Chart setting Week.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chart setting Week.png"; sourceTree = "<group>"; };
+		6D696A8323FFFC4200BAA7AB /* Home Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Screen.png"; sourceTree = "<group>"; };
+		6D696A8423FFFC4200BAA7AB /* Add New Work.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add New Work.png"; sourceTree = "<group>"; };
+		6D696A8523FFFC4200BAA7AB /* Change Password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Change Password.png"; sourceTree = "<group>"; };
+		6D696A8623FFFC4200BAA7AB /* Chart Month.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chart Month.png"; sourceTree = "<group>"; };
+		6D696A8723FFFC4200BAA7AB /* Forget Password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Forget Password.png"; sourceTree = "<group>"; };
+		6D696A8823FFFC4200BAA7AB /* Setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Setting.png; sourceTree = "<group>"; };
+		6D696A8923FFFC4200BAA7AB /* Changed Information.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Changed Information.png"; sourceTree = "<group>"; };
+		6D696A8A23FFFC4200BAA7AB /* Add working.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add working.png"; sourceTree = "<group>"; };
+		6D696A8B23FFFC4200BAA7AB /* Chart Week.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chart Week.png"; sourceTree = "<group>"; };
+		6D696A8C23FFFC4200BAA7AB /* Chart setting Month.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chart setting Month.png"; sourceTree = "<group>"; };
+		6D696A8D23FFFC4200BAA7AB /* Log In.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Log In.png"; sourceTree = "<group>"; };
+		6D696A9B24000BBA00BAA7AB /* JobTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTableViewCell.swift; sourceTree = "<group>"; };
+		6D696A9D24000E7400BAA7AB /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		6D696A9F240018CE00BAA7AB /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		6D696AA124001C1300BAA7AB /* StateSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateSegmentedControl.swift; sourceTree = "<group>"; };
+		6D696AA32400D11500BAA7AB /* AppTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarViewController.swift; sourceTree = "<group>"; };
+		6D696AA72400E51100BAA7AB /* ChartWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartWeekViewController.swift; sourceTree = "<group>"; };
+		6D696AAB2400EB3200BAA7AB /* PieChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
+		6D696AAE2400EB5400BAA7AB /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		6D696AB02402468900BAA7AB /* WeekChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekChartView.swift; sourceTree = "<group>"; };
+		6D696AB22402791F00BAA7AB /* WeekChartCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekChartCollectionViewCell.swift; sourceTree = "<group>"; };
+		6D696AB42402874100BAA7AB /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		6D696ABA2402B40500BAA7AB /* JobPercentage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPercentage.swift; sourceTree = "<group>"; };
+		6D696ABC2402BA6C00BAA7AB /* JobTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTypeTableViewCell.swift; sourceTree = "<group>"; };
+		6D696ABE24036E2D00BAA7AB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6D696AC024036FD800BAA7AB /* InfoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCollectionViewCell.swift; sourceTree = "<group>"; };
+		6D696AC324037D0B00BAA7AB /* NewJobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJobViewController.swift; sourceTree = "<group>"; };
+		6D696AC52403ABC500BAA7AB /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+		6D696AC72404C19800BAA7AB /* JobInputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobInputTextField.swift; sourceTree = "<group>"; };
+		6D696ACA2405004800BAA7AB /* JobPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPickerViewController.swift; sourceTree = "<group>"; };
+		6D696ACC240501D700BAA7AB /* JobPickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPickerTableViewCell.swift; sourceTree = "<group>"; };
+		6D696ACE240521C300BAA7AB /* JobPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPicker.swift; sourceTree = "<group>"; };
+		6D696AD12405523300BAA7AB /* CreateJobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateJobViewController.swift; sourceTree = "<group>"; };
+		6D8EA38C23FA76470064FB99 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		6DADFA2723F3E0790010D080 /* TimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DADFA2A23F3E0790010D080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DADFA2C23F3E0790010D080 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6DADFA3123F3E0790010D080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DADFA3323F3E07B0010D080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DADFA3623F3E07B0010D080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DADFA3823F3E07B0010D080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76310A57D718D9F610D0CFC2 /* Pods-TimeTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeTracker.debug.xcconfig"; path = "Target Support Files/Pods-TimeTracker/Pods-TimeTracker.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DADFA2423F3E0790010D080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DDBA904E75A28131FFB43BE /* Pods_TimeTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AD0A1403002821D0E7E1F0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76310A57D718D9F610D0CFC2 /* Pods-TimeTracker.debug.xcconfig */,
+				449C18CD7B18E3F024D770F5 /* Pods-TimeTracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6D696A5F23FF76FB00BAA7AB /* MainScene */ = {
+			isa = PBXGroup;
+			children = (
+				6D696AA52400E48900BAA7AB /* Views */,
+				6D696A6023FF771900BAA7AB /* MainViewController.swift */,
+			);
+			path = MainScene;
+			sourceTree = "<group>";
+		};
+		6D696A6A23FFF82D00BAA7AB /* IMGS */ = {
+			isa = PBXGroup;
+			children = (
+				6D696A8423FFFC4200BAA7AB /* Add New Work.png */,
+				6D696A8A23FFFC4200BAA7AB /* Add working.png */,
+				6D696A8523FFFC4200BAA7AB /* Change Password.png */,
+				6D696A8923FFFC4200BAA7AB /* Changed Information.png */,
+				6D696A8623FFFC4200BAA7AB /* Chart Month.png */,
+				6D696A8C23FFFC4200BAA7AB /* Chart setting Month.png */,
+				6D696A8223FFFC4200BAA7AB /* Chart setting Week.png */,
+				6D696A8B23FFFC4200BAA7AB /* Chart Week.png */,
+				6D696A8723FFFC4200BAA7AB /* Forget Password.png */,
+				6D696A8323FFFC4200BAA7AB /* Home Screen.png */,
+				6D696A8D23FFFC4200BAA7AB /* Log In.png */,
+				6D696A8123FFFC4200BAA7AB /* Pie Chart.png */,
+				6D696A8823FFFC4200BAA7AB /* Setting.png */,
+			);
+			path = IMGS;
+			sourceTree = "<group>";
+		};
+		6D696AA52400E48900BAA7AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D696A6423FF961300BAA7AB /* CircleImageView.swift */,
+				6D696A6623FFB96500BAA7AB /* ReviewCollectionViewCell.swift */,
+				6D696A6823FFBAAB00BAA7AB /* PercentageCircleView.swift */,
+				6D696A9B24000BBA00BAA7AB /* JobTableViewCell.swift */,
+				6D696A9F240018CE00BAA7AB /* CircleButton.swift */,
+				6D696AA124001C1300BAA7AB /* StateSegmentedControl.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6D696AA62400E4EB00BAA7AB /* ChartWeekScene */ = {
+			isa = PBXGroup;
+			children = (
+				6D696AB62402AAF000BAA7AB /* Views */,
+				6D696AA72400E51100BAA7AB /* ChartWeekViewController.swift */,
+			);
+			path = ChartWeekScene;
+			sourceTree = "<group>";
+		};
+		6D696AA92400E52900BAA7AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D696A9D24000E7400BAA7AB /* CircleView.swift */,
+				6D696A6223FF8E1500BAA7AB /* QuarterCircleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6D696AAA2400EB1F00BAA7AB /* PieChartScene */ = {
+			isa = PBXGroup;
+			children = (
+				6D696AAB2400EB3200BAA7AB /* PieChartViewController.swift */,
+				6D696ABA2402B40500BAA7AB /* JobPercentage.swift */,
+				6D696ABC2402BA6C00BAA7AB /* JobTypeTableViewCell.swift */,
+			);
+			path = PieChartScene;
+			sourceTree = "<group>";
+		};
+		6D696AAD2400EB4100BAA7AB /* SettingScene */ = {
+			isa = PBXGroup;
+			children = (
+				6D696AAE2400EB5400BAA7AB /* SettingViewController.swift */,
+				6D696ABE24036E2D00BAA7AB /* User.swift */,
+				6D696AC024036FD800BAA7AB /* InfoCollectionViewCell.swift */,
+			);
+			path = SettingScene;
+			sourceTree = "<group>";
+		};
+		6D696AB62402AAF000BAA7AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D696AB02402468900BAA7AB /* WeekChartView.swift */,
+				6D696AB22402791F00BAA7AB /* WeekChartCollectionViewCell.swift */,
+				6D696AB42402874100BAA7AB /* NoteTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6D696AC224037CDF00BAA7AB /* NewJobScene */ = {
+			isa = PBXGroup;
+			children = (
+				6D696AC324037D0B00BAA7AB /* NewJobViewController.swift */,
+				6D696AC72404C19800BAA7AB /* JobInputTextField.swift */,
+			);
+			path = NewJobScene;
+			sourceTree = "<group>";
+		};
+		6D696AC92405001800BAA7AB /* JobPickerScene */ = {
+			isa = PBXGroup;
+			children = (
+				6D696ACA2405004800BAA7AB /* JobPickerViewController.swift */,
+				6D696ACC240501D700BAA7AB /* JobPickerTableViewCell.swift */,
+				6D696ACE240521C300BAA7AB /* JobPicker.swift */,
+			);
+			path = JobPickerScene;
+			sourceTree = "<group>";
+		};
+		6D696AD02405520800BAA7AB /* CreateJobScene */ = {
+			isa = PBXGroup;
+			children = (
+				6D696AD12405523300BAA7AB /* CreateJobViewController.swift */,
+			);
+			path = CreateJobScene;
+			sourceTree = "<group>";
+		};
+		6D8EA38B23FA763A0064FB99 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6D696AA32400D11500BAA7AB /* AppTabBarViewController.swift */,
+				6D696AA92400E52900BAA7AB /* Views */,
+				6D8EA38C23FA76470064FB99 /* Utilities.swift */,
+				6D696AC52403ABC500BAA7AB /* EmptyViewController.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6DADFA1E23F3E0790010D080 = {
+			isa = PBXGroup;
+			children = (
+				6D696A6A23FFF82D00BAA7AB /* IMGS */,
+				6DADFA2923F3E0790010D080 /* TimeTracker */,
+				6DADFA2823F3E0790010D080 /* Products */,
+				5AD0A1403002821D0E7E1F0F /* Pods */,
+				F9CFE0E809E286BEEA6CB6A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6DADFA2823F3E0790010D080 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DADFA2723F3E0790010D080 /* TimeTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DADFA2923F3E0790010D080 /* TimeTracker */ = {
+			isa = PBXGroup;
+			children = (
+				6D696AD02405520800BAA7AB /* CreateJobScene */,
+				6D696AC92405001800BAA7AB /* JobPickerScene */,
+				6D696AC224037CDF00BAA7AB /* NewJobScene */,
+				6D696AAD2400EB4100BAA7AB /* SettingScene */,
+				6D696AAA2400EB1F00BAA7AB /* PieChartScene */,
+				6D696AA62400E4EB00BAA7AB /* ChartWeekScene */,
+				6DADFA6923F535EF0010D080 /* LoginScene */,
+				6D696A5F23FF76FB00BAA7AB /* MainScene */,
+				6D8EA38B23FA763A0064FB99 /* Shared */,
+				6DADFA2A23F3E0790010D080 /* AppDelegate.swift */,
+				6DADFA2C23F3E0790010D080 /* SceneDelegate.swift */,
+				6DADFA3023F3E0790010D080 /* Main.storyboard */,
+				6DADFA3323F3E07B0010D080 /* Assets.xcassets */,
+				6DADFA3523F3E07B0010D080 /* LaunchScreen.storyboard */,
+				6DADFA3823F3E07B0010D080 /* Info.plist */,
+			);
+			path = TimeTracker;
+			sourceTree = "<group>";
+		};
+		6DADFA6923F535EF0010D080 /* LoginScene */ = {
+			isa = PBXGroup;
+			children = (
+				6D696A7F23FFFB7300BAA7AB /* CustomTextField.swift */,
+				6D696A7A23FFFB4600BAA7AB /* ScreenView.swift */,
+				6D696A7923FFFB4600BAA7AB /* ViewController.swift */,
+			);
+			path = LoginScene;
+			sourceTree = "<group>";
+		};
+		F9CFE0E809E286BEEA6CB6A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B7A01D6851F8BEC32DB8B7A /* Pods_TimeTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DADFA2623F3E0790010D080 /* TimeTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DADFA3B23F3E07B0010D080 /* Build configuration list for PBXNativeTarget "TimeTracker" */;
+			buildPhases = (
+				9B8F943A74647FF67EB7D056 /* [CP] Check Pods Manifest.lock */,
+				6DADFA2323F3E0790010D080 /* Sources */,
+				6DADFA2423F3E0790010D080 /* Frameworks */,
+				6DADFA2523F3E0790010D080 /* Resources */,
+				4F9056FB38AE6A8C7209BD6D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeTracker;
+			productName = TimeTracker;
+			productReference = 6DADFA2723F3E0790010D080 /* TimeTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DADFA1F23F3E0790010D080 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Hoang Tung";
+				TargetAttributes = {
+					6DADFA2623F3E0790010D080 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6DADFA2223F3E0790010D080 /* Build configuration list for PBXProject "TimeTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DADFA1E23F3E0790010D080;
+			productRefGroup = 6DADFA2823F3E0790010D080 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DADFA2623F3E0790010D080 /* TimeTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DADFA2523F3E0790010D080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D696A9523FFFC4200BAA7AB /* Setting.png in Resources */,
+				6D696A9923FFFC4200BAA7AB /* Chart setting Month.png in Resources */,
+				6D696A9323FFFC4200BAA7AB /* Chart Month.png in Resources */,
+				6D696A9723FFFC4200BAA7AB /* Add working.png in Resources */,
+				6D696A9623FFFC4200BAA7AB /* Changed Information.png in Resources */,
+				6D696A8E23FFFC4200BAA7AB /* Pie Chart.png in Resources */,
+				6D696A9A23FFFC4200BAA7AB /* Log In.png in Resources */,
+				6D696A9823FFFC4200BAA7AB /* Chart Week.png in Resources */,
+				6DADFA3723F3E07B0010D080 /* LaunchScreen.storyboard in Resources */,
+				6DADFA3423F3E07B0010D080 /* Assets.xcassets in Resources */,
+				6D696A9023FFFC4200BAA7AB /* Home Screen.png in Resources */,
+				6D696A9123FFFC4200BAA7AB /* Add New Work.png in Resources */,
+				6D696A9423FFFC4200BAA7AB /* Forget Password.png in Resources */,
+				6DADFA3223F3E0790010D080 /* Main.storyboard in Resources */,
+				6D696A8F23FFFC4200BAA7AB /* Chart setting Week.png in Resources */,
+				6D696A9223FFFC4200BAA7AB /* Change Password.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F9056FB38AE6A8C7209BD6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TimeTracker/Pods-TimeTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TimeTracker/Pods-TimeTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TimeTracker/Pods-TimeTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B8F943A74647FF67EB7D056 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TimeTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DADFA2323F3E0790010D080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D696ABB2402B40500BAA7AB /* JobPercentage.swift in Sources */,
+				6D696A7B23FFFB4600BAA7AB /* ViewController.swift in Sources */,
+				6D696AB52402874100BAA7AB /* NoteTableViewCell.swift in Sources */,
+				6D696AD22405523300BAA7AB /* CreateJobViewController.swift in Sources */,
+				6D696ACF240521C300BAA7AB /* JobPicker.swift in Sources */,
+				6D696A8023FFFB7300BAA7AB /* CustomTextField.swift in Sources */,
+				6D696A6123FF771900BAA7AB /* MainViewController.swift in Sources */,
+				6D696A9C24000BBA00BAA7AB /* JobTableViewCell.swift in Sources */,
+				6D696ACB2405004800BAA7AB /* JobPickerViewController.swift in Sources */,
+				6D696AA42400D11500BAA7AB /* AppTabBarViewController.swift in Sources */,
+				6D696A6523FF961300BAA7AB /* CircleImageView.swift in Sources */,
+				6D696ABF24036E2D00BAA7AB /* User.swift in Sources */,
+				6D696AAC2400EB3200BAA7AB /* PieChartViewController.swift in Sources */,
+				6D8EA38D23FA76470064FB99 /* Utilities.swift in Sources */,
+				6D696A6323FF8E1500BAA7AB /* QuarterCircleView.swift in Sources */,
+				6D696AC124036FD800BAA7AB /* InfoCollectionViewCell.swift in Sources */,
+				6D696AC82404C19800BAA7AB /* JobInputTextField.swift in Sources */,
+				6D696AA0240018CE00BAA7AB /* CircleButton.swift in Sources */,
+				6DADFA2B23F3E0790010D080 /* AppDelegate.swift in Sources */,
+				6D696ABD2402BA6C00BAA7AB /* JobTypeTableViewCell.swift in Sources */,
+				6D696AB12402468900BAA7AB /* WeekChartView.swift in Sources */,
+				6D696AC424037D0B00BAA7AB /* NewJobViewController.swift in Sources */,
+				6D696AB32402791F00BAA7AB /* WeekChartCollectionViewCell.swift in Sources */,
+				6D696A9E24000E7400BAA7AB /* CircleView.swift in Sources */,
+				6D696AA82400E51100BAA7AB /* ChartWeekViewController.swift in Sources */,
+				6D696A6923FFBAAB00BAA7AB /* PercentageCircleView.swift in Sources */,
+				6D696AA224001C1300BAA7AB /* StateSegmentedControl.swift in Sources */,
+				6D696A6723FFB96500BAA7AB /* ReviewCollectionViewCell.swift in Sources */,
+				6D696AAF2400EB5400BAA7AB /* SettingViewController.swift in Sources */,
+				6DADFA2D23F3E0790010D080 /* SceneDelegate.swift in Sources */,
+				6D696ACD240501D700BAA7AB /* JobPickerTableViewCell.swift in Sources */,
+				6D696AC62403ABC500BAA7AB /* EmptyViewController.swift in Sources */,
+				6D696A7C23FFFB4600BAA7AB /* ScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6DADFA3023F3E0790010D080 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DADFA3123F3E0790010D080 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DADFA3523F3E07B0010D080 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DADFA3623F3E07B0010D080 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DADFA3923F3E07B0010D080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DADFA3A23F3E07B0010D080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DADFA3C23F3E07B0010D080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76310A57D718D9F610D0CFC2 /* Pods-TimeTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 448WS6UWDS;
+				INFOPLIST_FILE = TimeTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tung.TimeTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DADFA3D23F3E07B0010D080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 449C18CD7B18E3F024D770F5 /* Pods-TimeTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 448WS6UWDS;
+				INFOPLIST_FILE = TimeTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tung.TimeTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DADFA2223F3E0790010D080 /* Build configuration list for PBXProject "TimeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DADFA3923F3E07B0010D080 /* Debug */,
+				6DADFA3A23F3E07B0010D080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DADFA3B23F3E07B0010D080 /* Build configuration list for PBXNativeTarget "TimeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DADFA3C23F3E07B0010D080 /* Debug */,
+				6DADFA3D23F3E07B0010D080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DADFA1F23F3E0790010D080 /* Project object */;
+}
